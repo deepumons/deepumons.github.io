@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to hire me
+subtitle: ... and why you'd want to hire me
 ---
 
 My name is Deepak Rajendran, a <a href="https://liu.se/en">LiU</a> 
