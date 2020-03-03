@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A case for smaller and lighter phones
+title: A case for smaller phones
 tags: [opinion]
 ---
 
