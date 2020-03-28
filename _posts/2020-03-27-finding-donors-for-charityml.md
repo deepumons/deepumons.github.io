@@ -77,7 +77,7 @@ I used [`pandas.get_dummies()`](http://pandas.pydata.org/pandas-docs/stable/gene
 
 Now all  _categorical variables_  have been converted into numerical features, and all numerical features have been normalized. As always, we will now split the data (both features and their labels) into training and test sets. 80% of the data will be used for training and 20% for testing.
 
-# Evaluating Model Performance
+# Evaluating model performance
 
 In this section, we will investigate four different algorithms, and determine which is best at modeling the data. Three of these algorithms will be supervised learners , and the fourth algorithm is known as a  _naive predictor_.
 
@@ -105,7 +105,7 @@ Gauissian Naive Bayes assumes the data follows a gaussian (normal) distribution,
 
 Since we are dealing with 10 plus features, I believe Gaussian NB could be a good fit for our problem The algorithm is simpler than the others, and might result in shorter model training, and testing times, which could be advantageous if it manages to get a good fbeta score.
 
-**SVM**
+**Support Vector Machines (SVM)**
 
 SVM is widely used in text and hypertext configuration, and classification of images. It has also found applications in scientific community for the classification of proteins.
 
@@ -139,16 +139,16 @@ Moreover, the model training time for shot up exponentially (around 100 seconds 
 
 In this final section, I chose the best model, and performed a grid search optimization for the model over the entire training set ("X_train" and "y_train") by tuning at least one parameter to improve upon the untuned model's F-score. This is to identify by the optimum parameters for our chosen model. The results are given below.
 
-| Metric | Unoptimized Model | Optimized Model |
-|--|--|--|
-| Accuracy Score | 0.8576 | 0.8605 |
-| F-score | 0.7246 | 0.7300 |
+| Metric | Naive predictor | Unoptimized model | Optimized model |
+|--|--|--|--|
+| Accuracy Score | 0.2478 | 0.8576 | 0.8605 |
+| F-beta score | 0.2917 | 0.7246 | 0.7300 |
 
-The optimized model had the accuracy score of 0.8605, and fbeta score of 0.7300. This is a slight imporvement over the unoptimized model.
+The optimized model had the accuracy score of 0.8605, and f-beta score of 0.7300. This is a slight imporvement over the unoptimized model.
 
 The naive predictor had an accuracy score of 0.2478 and an fbeta score of 0.2917. Compared to this, the optimized model performs nearly 3.5 times better in accuracy and 2.5 times on f-beta score.
 
-#References:
+# References:
 
 [1]  [https://en.wikipedia.org/wiki/Naive_Bayes_classifier](https://en.wikipedia.org/wiki/Naive_Bayes_classifier)
 
