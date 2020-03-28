@@ -8,7 +8,7 @@ In this project, I will employ several supervised algorithms to accurately model
 
 The dataset for this project originates from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Census+Income). The datset was donated by Ron Kohavi and Barry Becker, after being published in the article _"Scaling Up the Accuracy of Naive-Bayes Classifiers: A Decision-Tree Hybrid"_. You can find the article by Ron Kohavi [online](https://www.aaai.org/Papers/KDD/1996/KDD96-033.pdf). The data we investigate here consists of small changes to the original dataset, such as removing the "fnlwgt" feature and records with missing or ill-formatted entries.
 
-I had completed this project as part of my Data Science Nanodgree at Udacity. This project is implemented in a Jupyter notebook with Python code, and it available on my [GitHub](https://github.com/deepumons/data-scientist-nd/tree/master/p1_finding_donors)
+I had completed this project as part of my Data Science Nanodgree at Udacity. This project is implemented in a Jupyter notebook with Python code, and it ais vailable on my [GitHub](https://github.com/deepumons/data-scientist-nd/tree/master/p1_finding_donors).
 
 # Exploratory Data Analysis
 
