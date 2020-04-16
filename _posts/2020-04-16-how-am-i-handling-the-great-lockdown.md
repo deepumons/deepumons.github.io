@@ -1,8 +1,9 @@
 ---
 layout: post
-title: How am I handing the great lockdown?
+title: How I am handing the great lockdown
 subtitle: Or, how to learn cool stuff, eat healthy, and have fun during troubled times. 
 ---
+
 The Covid-19 pandemic has put the enitre world in a state of lockdown. We are no longer able to do a lot of things that we used to take for granted. Simple pleasures such as, catching a movie, having dinner with loved ones in your favorite restaurant, riding the metro, and even going for a stroll around the block is no longer possible.
 
 If the latest [IMF projections](https://www.imf.org/en/Publications/WEO/Issues/2020/04/14/weo-april-2020) are any indication, a real recovery would take years. If the economic experts are to be believed, we come to the harsh conclusion that we are in it for the long haul. Once we get over the initial shock, there is more doom, and gloom on the way with companies set to reduce workforce, and freeze hiring. Unemployed folks such as myself, are going to find it extra difficult to find a new job, and the ones that are already working will have hold on to their dear jobs. In hard times such as this, it is all the more important to look at the bright side and plan ahead. Our new found extra time could be put to good use. Keeping these in mind, I have taken up additional projects for betterment during this period, which I shall list below.
