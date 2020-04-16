@@ -10,8 +10,7 @@ pleasures such as, catching a movie, having dinner with loved ones in your
 favorite restaurant, riding the metro, and even going for a stroll around the 
 block is no longer possible.
 
-If the latest [IMF projections]
-(https://www.imf.org/en/Publications/WEO/Issues/2020/04/14/weo-april-2020) 
+If the latest [IMF projections](https://www.imf.org/en/Publications/WEO/Issues/2020/04/14/weo-april-2020) 
 are any indication, a real recovery would take years. If the economic experts 
 are to be believed, we come to the harsh conclusion that we are in it for the 
 long haul. Once we get over the initial shock, there is more doom, and gloom 
@@ -35,8 +34,7 @@ their lives from what they have learned. I am only two weeks into this four
 week course, but I already feel that everyone should be aware of the 
 techniques taught in this course to improve their study habits, and study 
 outcome. So, I do recommend it, and I shall write a detailed blog post once I 
-complete the course. You can study [Learning how to learn]
-(https://www.coursera.org/learn/learning-how-to-learn) for free ($49 if you 
+complete the course. You can study [Learning how to learn](https://www.coursera.org/learn/learning-how-to-learn) for free ($49 if you 
 want a verified certificate) at Coursera.
 
 
@@ -67,8 +65,7 @@ foods with high, or added sugar, except for the 2-3 cheat meals we have during
 week. This means no more milkshakes, ice cream, and even the 1 teaspoon sugar 
 that we add to the tea we take. In addition to this, we avoid high glycemic 
 fruits such as grapes. It is okay to consume fruits on the lower end (<55 on 
-the index) of the [Glycemic Index]
-(https://www.health.harvard.edu/diseases-and-conditions/glycemic-index-and-glycemic-load-for-100-foods). 
+the index) of the [Glycemic Index](https://www.health.harvard.edu/diseases-and-conditions/glycemic-index-and-glycemic-load-for-100-foods). 
 So, apple, oranges, and plum, etc. are good. We are also avoiding starchy 
 foods like potatoes, and rice on most days, having substituted it with 
 wheat-based chapattis, and rotis.
@@ -109,8 +106,7 @@ I had watched the Oscar winning Korean movie Parasite in February, and it
 opened my eyes, and ears to world cinema. I had seen some Swedish, and German 
 movies during my stay in Sweden, but I realized that I had not seen any new 
 foreign films in the years that followed. A quick google search revealed 
-[Empire magazine's 100 greatest films from world cinema]
-(https://www.empireonline.com/movies/features/100-greatest-world-cinema-films/), which goes like this:
+[Empire magazine's 100 greatest films from world cinema](https://www.empireonline.com/movies/features/100-greatest-world-cinema-films/), which goes like this:
 
 > From Brazil to Japan to France and Senegal, from Neo-Realism to Dogme to 
 J-horror, we've compiled a list of the very best films not in the English 
