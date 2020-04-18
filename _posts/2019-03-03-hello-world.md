@@ -2,6 +2,7 @@
 layout: post
 title: Hello World!
 subtitle: Why GitHub Pages + Jekyll is awesome
+tags: [musings]
 image: /img/hello_world.jpeg
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A case for smaller phones
-tags: [opinion]
+tags: [musings]
 ---
 
 I got a brand new Pocophone last week to replace my aging Xiaomi Mi5. At INR 

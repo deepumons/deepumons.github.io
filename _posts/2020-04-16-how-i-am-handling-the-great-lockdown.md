@@ -1,7 +1,8 @@
 ---
 layout: post
 title: How I am handing the great lockdown
-subtitle: Or, how to learn cool stuff, eat healthy, and have fun during troubled times. 
+subtitle: Or, how to learn cool stuff, eat healthy, and have fun during troubled times.
+tags: [musings] 
 ---
 
 The Covid-19 pandemic has put the enitre world in a state of lockdown. We are 
