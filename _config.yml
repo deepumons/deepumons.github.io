@@ -21,7 +21,7 @@ description: A virtual proof that I'm awesome
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"  
-  Topics: "/tags/"
+  Tag Index: "/tags/"
   My Resume: "http://bit.ly/3aiYFNt"
   #Resources:
     #- Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
