@@ -78,6 +78,6 @@ This would close the Power Query Editor, and load the data to your workbook.
 * Create a TotalHours column, that combiles the hours, minutes, and seconds into a single value in hours. This would make our analysis much easier, as we are dealing with large data spread across many weeks, months, or even a year. DAX formula: =SUM([@Hours]+[@Minutes]/60+[@Seconds]/3600)
 * Quickly go through the TotalHours data to see if there are any anomalies. You can use the column level Filters, or a Pivot Table for this purpose. Remove anomalies that that you may find.
 
-# Data Analysis
+# Data analysis and next steps
 
 Your data is now ready for analysis. I would recommend a Pivot Table, or Pivot Chart in Excel to carry out the analysis. You can also export this data to your favorite data analysis platform such as Power BI, or Tableau to draw insights from your Digital Wellbeing data. Happy Analyzing!
