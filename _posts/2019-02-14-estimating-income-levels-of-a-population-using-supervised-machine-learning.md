@@ -1,6 +1,7 @@
 ﻿---
 layout: post
-title: Finding Donors for CharityML
+title: Estimating income levels of a polulation using Supervised Machine Learning
+subtitle: My implementation of the Finding Donors for CharityML project my Udacity Nanodegree program
 tags: [projects,data science,machine learning]
 ---
 
