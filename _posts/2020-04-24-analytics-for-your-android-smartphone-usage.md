@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Analyzing the Digital Wellbeing data from your Android phone
+title: Analyzing your android Smartphone usage
 subtitle: Detailed steps to export your Digital Wellbeing data, along with steps to import, and analyze it with Microsoft Excel.
 tags: [projects, data science, data analytics]
 ---
