@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Analyzing your android Smartphone usage
-subtitle: Detailed steps to export your Digital Wellbeing data, along with steps to import, and analyze it with Microsoft Excel.
+subtitle: Detailed steps to export your activity data for Android, along with steps to import, process and analyze in  Microsoft Excel.
 tags: [projects, data science, data analytics]
 ---
 
