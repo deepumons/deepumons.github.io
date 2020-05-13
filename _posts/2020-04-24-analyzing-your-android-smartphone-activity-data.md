@@ -1,13 +1,23 @@
 ---
 layout: post
 title: Analyzing your android smartphone activity data
-subtitle: Detailed steps to export your Android activity data and analyse with Microsoft Excel.
+subtitle: Detailed steps to export your Android activity data and analyse it with Microsoft Excel.
 tags: [projects, data science, data analytics]
 ---
 
-Google gave us the Digital Wellbeing tools from Android version 9.0 (Pie) onwards. These tools give you an idea about how much time you spend on your phone, most used apps, etc. It also shows other important metrics, such as, the number of notifications you received, and number of times your device was unlocked, and so on. It is a great way to keep tabs on your usage. However, as of now, it will only give you a daily summary, and there is no option to export this data out of your Android phone.
+Google gave us the Digital Wellbeing tools with Android version 9.0 (Pie). 
+These tools give you an idea about how much time you spend on your phone, most 
+used apps, etc. It also shows other important metrics, such as, the number of 
+notifications you received, and the number of times your device was unlocked, 
+and so on. It is a great way to keep tabs on your usage. However, as of now, 
+you only get a daily summary, and there is no option to export this data.
 
-We shall try to get around the above limitation by gathering this data from historical data that Google keeps on your activity on Android. This post provides guided steps to export and analyze your Digital Wellbeing data from your Android phone. We start by exporting the data from Android using Google Takeout. It is then imported to Microsoft Excel. This step is followed by data transformation steps to make the data easier to analyze.
+We shall try to get around this limitation by gathering the historical data 
+that Google keeps on your activity on Android. This post provides guided steps 
+to export and analyze your activity data from your Android phone. We start by 
+exporting the data from Android using Google Takeout. It is then imported to 
+Microsoft Excel. This step is followed by data transformation steps to make 
+the data easier to analyze.
 
 # Data acquisition
 
@@ -52,7 +62,20 @@ Let us have a look at the extracted data to get an idea about what we are dealin
 
 There are many attributes in each of the JSON data element, but we are interested in the ‘header’ and ‘time’ attribute. The header refers to the name of the application, and time refers to the time when it was started. There is no ‘End Time’ in these attributes, so we won’t know for sure for how long that application was in use.
 
-In my analysis, I noticed that the launcher application starts when the phone goes to standby mode. This happens like clockwork during night time, and idle hours during the day. If we discount these hours, we get the actual hours of use of the phone. To make the analysis simple, I am going to consider the start time of one application as the end time of the previous application. This means that the usage hours from this analysis would be much higher than your ‘screen on’ time for these application. This is a big caveat, but it can give us a reasonable estimate of the run time of  an application. So, it goes without saying that you need to look at the output of this analysis with a grain of salt.
+In my analysis, I noticed that the launcher application starts when the phone 
+goes to standby mode. This happens like clockwork during night time, and idle 
+hours during the day. If we discount these hours, we get the actual hours of 
+use of the phone. This would segregate the use between standby and non standby 
+hours, but keep in mind that this does not translate to screen-off, and 
+screen-on times.
+
+To make the analysis simple, I am going to consider the 
+start time of one application as the end time of the previous application. 
+This means that the usage hours from this analysis would be much higher than 
+your ‘screen on’ time for these application. This is a big caveat, but it can 
+give us a reasonable estimate of the run time of an application. So, it goes 
+without saying that you need to look at the output of this analysis with a 
+pinch of salt.
 
 # Importing the data to Microsoft Excel
 
