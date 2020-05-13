@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Analyzing your android Smartphone usage
-subtitle: Detailed steps to export your activity data for Android, along with steps to import, process and analyze in  Microsoft Excel.
+title: Analyzing your android smartphone activity data
+subtitle: Detailed steps to export your Android activity data and analyse with Microsoft Excel.
 tags: [projects, data science, data analytics]
 ---
 
@@ -81,11 +81,70 @@ This would close the Power Query Editor, and load the data to your workbook.
 # Data Analysis
 
 Your data is now ready for analysis. I would recommend using a Pivot Table, or 
-Pivot Chart in Excel to carry out the analysis. You can also export this data 
-to your favorite data analysis platform such as Power BI, or Tableau to draw 
-insights from your Digital Wellbeing data.
+Pivot Chart in Excel to carry out the analysis. Do go through the data, and 
+assign categories to each application to make the analysis more interesting. 
+You can also export this data to your favorite data analysis platform such as 
+Power BI, or Tableau to help with the analysis.
 
 Now let's have a look at some of the charts that were generated using 
 Power BI, and see if we can gain some insights.
 
-![Usage by category](http://www.deepumon.com/img/assets/smartphone_usage_analytics_dashboard.png)
+![Smartphone Usage Analytics Dashboard](http://www.deepumon.com/img/assets/smartphone_usage_analytics_dashboard.png)
+
+## Phone standby times
+
+My phone stays idle, or in standby mode for roughly half of the day. This is 
+true for all years except for 2020, where the standby time is increased to 
+64%. I have made a conscious effort to reduce my phone use this year, I 
+believe that is what is causing this drop in active use.
+
+## Top Applications
+
+WhatsApp happens to be my favourite app by a long mile. This comes as no 
+surprise, as most of my messaging happens on WhatsApp.
+
+The clock application coming after WhatsApp is an anomaly. I reckon this is 
+because clock is often the last used app -when I set my alarm- before I turn 
+in for the day. This might be causing the long hours under clock, so we can 
+safely ignore it.
+
+Google Now is the second most used app. I realise now that this is the first 
+app that I check for local news, my schedule, upcoming appointments, and so 
+on. I am very fond of this app, and it shows.
+
+YouTube is another app that eats up a lot of my time. This is in addition to 
+the time spent on my laptop, so I guess it is time to cut back on it.
+
+There is nothing significant about the remaining apps, so I shall not go in 
+to those in detail.
+
+## Category usage over time
+
+This chart has a large chunk of data missing between Jan/2019 and May/2019, 
+which needs to be investigated. I was using my smartphone as a wireless 
+hotspot during this period. I wonder if that has got something to with this 
+finding.
+
+## Top Categories
+
+My top three categories are Communication, Entertainment, and Internet. It was 
+surprising to note that I still use my phone mostly for Communication (voice 
+calls, and messaging). Entertainment coming in second is not a surprise 
+considering YouTube is my third most used app. Similarly, catching up on news, 
+and web browsing makes up most of the activity for Internet category.
+
+I was curious about my Camera usage, so this is where I turned my attention 
+next. It appears that I use my camera only occasionally, so splurging on a 
+triple camera shooter -as is the trend these days- is not going to help me 
+much. The remaining categories were in line with my expectations.
+
+## Total apps used
+There was a total of 215 unique apps installed, and used over this three-year 
+period. That’s a lot of apps! Perhaps it would be a good idea to be more 
+mindful before installing new applications.
+
+
+
+
+
+
