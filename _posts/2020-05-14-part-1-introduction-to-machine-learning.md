@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Part I: Introduction to Machine Learning
+title: Part 1: Introduction to Machine Learning
 subtitle: My course notes from Andrew Ng's Machine Learning course
 tags: [machine learning]
 ---
