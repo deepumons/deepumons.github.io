@@ -5,8 +5,8 @@ subtitle: My course notes from Andrew Ng's Machine Learning course
 tags: [machine learning]
 ---
 
-I took Andrew Ng’s Machine Learning course on Coursera during the summer of 
-2019. This course provided an entry point to the world of machine learning for 
+I took Andrew Ng’s Machine Learning course on Coursera in the summer of 2019. 
+This course provided an entry point to the world of machine learning for 
 me. The course touches upon some of the most widely used algorithms, and best 
 practices in machine learning. There is some serious math involved, but it is 
 not too difficult if you know linear algebra; some idea about calculus is also 
@@ -20,6 +20,7 @@ series of posts to explain what I have learned from this course. This is part
 1 of the series.
 
 ## What is Machine Learning?
+
 > “Machine Learning is the field of study that gives computers the ability to 
 learn without being explicitly programmed" – Arthur Samuel
 
@@ -40,7 +41,7 @@ given below:
 performance metric P, if the machine's performance P on the task T improves 
 with experience E.”
 
-## Kinds of Machine Learning
+## Types of Machine Learning
 
 There are many kinds of Machine Learning techniques. The most widely used ones 
 are Supervised Machine Learning and Unsupervised Machine Learning. Besides 
