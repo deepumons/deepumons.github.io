@@ -5,24 +5,24 @@ subtitle: My course notes from Andrew Ng's Machine Learning course
 tags: [machine learning]
 ---
 
-I took Andrew Ng’s Machine Learning course on Coursera in the summer of 2019. 
-This course provided an entry point to the world of machine learning for 
-me. The course touches upon some of the most widely used algorithms, and best 
+> “Machine Learning is the field of study that gives computers the ability to 
+learn without being explicitly programmed" – Arthur Samuel
+
+I took Andrew Ng’s Machine Learning course on Coursera last summer.
+This course gave me an entry point to the world of machine learning. 
+The course touches upon some of the most widely used algorithms, and best 
 practices in machine learning. There is some serious math involved, but it is 
 not too difficult if you know linear algebra; some idea about calculus is also 
 helpful. Andrew is a wonderful instructor, and he does an excellent job in 
 explaining the concepts in an easily digestible manner.
 
-I am revisiting this course again now. I felt that I need to brush up on some 
+I am revisiting this course now. I felt that I need to brush up on some 
 concepts, and fill in the gaps of my understanding. I was going through my 
 notes, and realised that I never put it online. To this end, I am writing a 
 series of posts to explain what I have learned from this course. This is part 
 1 of the series.
 
 ## What is Machine Learning?
-
-> “Machine Learning is the field of study that gives computers the ability to 
-learn without being explicitly programmed" – Arthur Samuel
 
 It is possible to solve most of the problems we face through computer 
 programming. For instance, think about finding the shortest path between two 
@@ -40,6 +40,16 @@ given below:
 > “A machine is said to learn from Experience E on a Task T, based on a 
 performance metric P, if the machine's performance P on the task T improves 
 with experience E.”
+
+## How does Machine Learning work?
+
+A set of data known as the training data is provided as input. The training 
+data is used to train a learning algorithm, which produces a hypothesis as the 
+output. The hypothesis is nothing but a statistical model that can be used to 
+make future predictions. It can be thought of as a function that produces an 
+output parameter -the prediction- when it receives an input parameter.
+
+![Machine Learning Process](http://www.deepumon.com/img/assets/machine-learning-02.png)
 
 ## Types of Machine Learning
 
@@ -78,6 +88,9 @@ to understand market segmentation, etc. are examples for Clustering.
 Independent Component Analysis (ICA) is another example for unsupervised 
 machine learning. It is used to filter out audio from noise, and extracting 
 foreground information from background in images.
+
+In the next part, we shall look at one of the most basic supervised learning 
+algorithm: Univariate Linear Regression, or Linear Regression with one variable.
 
 
 
