@@ -2,8 +2,8 @@
 layout: post
 title: Learning How to Learn
 subtitle: My notes from the Learning How to Learn course
-date: 2020-05-17
 tags: [productivity]
+readtime: true
 ---
 
 I took the Learning How to Learn course on Coursera during the lockdown period 
