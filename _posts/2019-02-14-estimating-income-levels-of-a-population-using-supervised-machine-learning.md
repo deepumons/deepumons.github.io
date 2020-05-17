@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Estimating income levels of a polulation using Supervised Machine Learning
 subtitle: My implementation of the Finding Donors for CharityML project my Udacity Nanodegree program
