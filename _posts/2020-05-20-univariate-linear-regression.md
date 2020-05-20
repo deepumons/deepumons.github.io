@@ -111,17 +111,14 @@ In order to do descent the gradient descent hill, we need to apply changes to
 theta values in small increments. We can use the gradiet descent algorithm for 
 this:
 
-```
+
 repeat untill convergence {
-```
+
 ![Theta 0](http://www.deepumon.com/img/assets/linear-regression-06.png)
-```
+
 }
 
 for theta = 0,1
-```
-
-
 
 When we substitue the cost function J with our MSE equation, we arrive at our 
 final equation for theta 0 and theta 1.
