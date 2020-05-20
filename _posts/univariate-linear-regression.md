@@ -1,8 +1,7 @@
 ---
 layout: post
-title: Univariate Linear Regression
+title: Part 2 - Univariate Linear Regression
 subtitle: ... or Linear Regression with one variable
-date: 2020-05-20
 tags: [machine learning]
 image: /img/assets/linear-regression-02.png
 ---
