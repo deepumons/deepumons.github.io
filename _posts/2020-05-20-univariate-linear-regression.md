@@ -3,7 +3,7 @@ layout: post
 title: Part 2 - Univariate Linear Regression
 subtitle: ... or Linear Regression with one variable
 tags: [machine learning]
-image: /img/assets/linear-regression-02.png
+image: /img/assets/linear-regression-02.jpg
 ---
 
 Linear regression is used to predict a continuous value. In this post we shall 
