@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Part 2 - Univariate Linear Regression
+title: Part 2.a - Univariate Linear Regression
 subtitle: ... or Linear Regression with one variable
 tags: [machine learning]
 image: /img/assets/linear-regression-02.jpg
@@ -107,29 +107,29 @@ would correspond to optimum values for theta 0 and theta 1.
 
 ## Gradient Descent Algorithm:
 
-In order to do descent the gradient descent hill, we need to apply changes to 
+In order to descent the gradient descent hill, we need to apply changes to 
 theta values in small increments. We can use the gradiet descent algorithm for 
 this:
 
 
-repeat untill convergence {
+_repeat untill convergence {_
 
 ![Theta 0](http://www.deepumon.com/img/assets/linear-regression-06.png)
 
-}
+_}_
 
-for theta = 0,1
+_for theta = 0,1_
 
 When we substitue the cost function J with our MSE equation, we arrive at our 
 final equation for theta 0 and theta 1.
 
-repeat untill convergence {
+_repeat untill convergence {_
 
 ![Theta 1](http://www.deepumon.com/img/assets/linear-regression-07.png)
 
 ![Theta 1](http://www.deepumon.com/img/assets/linear-regression-08.png)
 
-}
+_}_
 
 where m is the size of the training set, xi and yi are individual values from 
 the training set, alpha is the learning rate, and theta 0 and theta 1 are 
