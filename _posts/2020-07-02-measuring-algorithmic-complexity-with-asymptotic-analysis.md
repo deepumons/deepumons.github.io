@@ -13,9 +13,9 @@ We are typically interested in the time complexity, i.e. how fast an algorithm r
 
 I am quoting from Wikipedia here:
 
-" In mathematical analysis, asymptotic analysis, also known as asymptotics, is a method of describing limiting behaviour.
+*"In mathematical analysis, asymptotic analysis, also known as asymptotics, is a method of describing limiting behaviour.*
 
-As an illustration, suppose that we are interested in the properties of a function f(n) as n becomes very large. If f(n) = n<sup>2</sup> + 3n, then as n becomes very large, the term 3n becomes insignificant compared to n<sup>2</sup>. The function f(n) is said to be "asymptotically equivalent to n<sup>2</sup>, as n → ∞". This is often written symbolically as f(n) ~ n<sup>2</sup>, which is read as "f(n) is asymptotic to n<sup>2</sup>".
+*As an illustration, suppose that we are interested in the properties of a function f(n) as n becomes very large. If f(n) = n<sup>2</sup> + 3n, then as n becomes very large, the term 3n becomes insignificant compared to n<sup>2</sup>. The function f(n) is said to be "asymptotically equivalent to n<sup>2</sup>, as n → ∞". This is often written symbolically as f(n) ~ n<sup>2</sup>, which is read as "f(n) is asymptotic to n<sup>2</sup>".*
 
 In computing terms, we define this approximation through Big Oh notions. The big oh notation for the above example, f(n) = n<sup>2</sup> + 3n would be: **O(n<sup>2</sup>)**. The asymptotic analysis of an algorithm helps us define the mathematical bounds of the run-time of the algorithm.
 
