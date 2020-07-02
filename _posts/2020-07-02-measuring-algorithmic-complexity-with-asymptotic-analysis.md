@@ -13,9 +13,9 @@ We are typically interested in the time complexity, i.e. how fast an algorithm r
 
 I am quoting from Wikipedia here:
 
->	In mathematical analysis, asymptotic analysis, also known as asymptotics, is a method of describing limiting behaviour.
+" In mathematical analysis, asymptotic analysis, also known as asymptotics, is a method of describing limiting behaviour.
 
->	As an illustration, suppose that we are interested in the properties of a function f(n) as n becomes very large. If f(n) = n<sup>2</sup> + 3n, then as n becomes very large, the term 3n becomes insignificant compared to n<sup>2</sup>. The function f(n) is said to be "asymptotically equivalent to n<sup>2</sup>, as n → ∞". This is often written symbolically as f(n) ~ n<sup>2</sup>, which is read as "f(n) is asymptotic to n<sup>2</sup>".
+As an illustration, suppose that we are interested in the properties of a function f(n) as n becomes very large. If f(n) = n<sup>2</sup> + 3n, then as n becomes very large, the term 3n becomes insignificant compared to n<sup>2</sup>. The function f(n) is said to be "asymptotically equivalent to n<sup>2</sup>, as n → ∞". This is often written symbolically as f(n) ~ n<sup>2</sup>, which is read as "f(n) is asymptotic to n<sup>2</sup>".
 
 In computing terms, we define this approximation through Big Oh notions. The big oh notation for the above example, f(n) = n<sup>2</sup> + 3n would be: **O(n<sup>2</sup>)**. The asymptotic analysis of an algorithm helps us define the mathematical bounds of the run-time of the algorithm.
 
@@ -25,7 +25,7 @@ Now that we know what asymptotic notations are, let us see the asymptotic repres
 
 ## O(1) - Constant growth
 
-These algorithms always produce the output in constant time, irrespective of the size of the input. For instance, consider an array of size n. Getting the value at the ith index of the array would always take 1 unit of time, therefore the time complexity in such cases is constant, or O(1).
+These algorithms always produce the output in constant time, irrespective of the size of the input. For instance, consider an array of size n. Getting the value at the ith index of the array would always take 1 unit of time, therefore the time complexity in such cases is constant, or **O(1)**.
 
 ## O(n) - Linear growth
 
@@ -48,7 +48,7 @@ Looking at the code, we can see that the loop runs at most n times. As the value
 
 ## O(log n) – Logarithmic growth
 
-These algorithms perform much better than algorithms that grow linearly. So, logarithmic growth is what algorithmic designers strive for as it is considered as a good bench mark. Binary search is an example for an algorithm with time complexity of O(log n). In binary search even when the input size doubles, the algorithm takes just one more iteration to find the required element.
+These algorithms perform much better than algorithms that grow linearly. So, logarithmic growth is what algorithmic designers strive for as it is considered as a good bench mark. Binary search is an example for an algorithm with time complexity of **O(log n)**. In binary search even when the input size doubles, the algorithm takes just one more iteration to find the required element.
 
 In the best case for binary search, the required element is right at the middle. The algorithm performs at O(1) in that case. In other cases, we need to keep searching till we reach the required element, with our search space halving every iteration.
 
@@ -58,9 +58,9 @@ Consider the following array:
 
 Let us say we are searching for '9' in this array. We can reframe this problem as finding the index of the array that has a value of 9.
 
-We know that for a number x with ‘n’ digits, we need at most  log(n) digits to represent any number in the series 1, 2…, x. Applying the same logic for our array with 9 indices, we would need at most log2(9) = 3 bits to represent, or locate any index within this array. So, for a general case this would become O(log(n)) for an array of size n.
+We know that for a number x with ‘n’ digits, we need at most  log(n) digits to represent any number in the series 1, 2…, x. Applying the same logic for our array with 9 indices, we would need at most log2(9) = 3 bits to represent, or locate any index within this array. So, for a general case this would become **O(log(n))** for an array of size n.
 
-Whenever you see an algorithm where the number of elements in the problem space gets halved in each iteration, it will likely have a time complexity of O(log(n)).
+Whenever you see an algorithm where the number of elements in the problem space gets halved in each iteration, it will likely have a time complexity of **O(log(n))**.
 
 
 
