@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Analyzing your android smartphone activity data
-subtitle: Detailed steps to export your Android activity data and analyse it with Microsoft Excel.
+title: Exporting and analyzing the digital wellbeing data from your Android phone
+subtitle: Detailed steps to export your Android activity data and analyse it with Microsoft Excel
 tags: [projects, data science, data analytics]
 ---
 
@@ -12,14 +12,35 @@ notifications you received, and the number of times your device was unlocked,
 and so on. It is a great way to keep tabs on your usage. However, as of now, 
 you only get a daily summary, and there is no option to export this data.
 
-We shall try to get around this limitation by gathering the historical data 
+In this post, we shall look at alternatives that help us get the same information. We shall look at a popular tool, and if that doesn’t work for you, we shall see how to build a quick solution using Microsoft Excel.
+
+# 1. Analyzing Android activity data with RescueTime
+
+My first choice is [RescueTime](https://rescuetime.com), which is a fantastic tool to track time spent on your computer, or your phone. Just install the software on your device, and you are set. Soon, you can generate daily, weekly, monthly, and yearly summaries of your usage patterns.
+
+You can find a typical RescueTime dashboard below, which can give you an idea about the data would get.
+
+![RescueTime Dashboard](http://www.deepumon.com/img/assets/smartphone_usage_analytics_rescuetime_1.png)
+
+You can also drill down to see just the mobile usage data, which can give you an idea about your most used apps, how much time do you spend on them, and so on.
+
+![RescueTime Mobile Dashboard](http://www.deepumon.com/img/assets/smartphone_usage_analytics_rescuetime_2.png)
+
+Rescue time does have some limitations:
+
+1. The free version can only show you data for latest 3 months. Your older data is locked away until you opt for the paid version.
+2. It would take some time to collect enough data for analysis. So, if you are in a hurry, it would be better to build your own solution, which I shall explain in the section below.
+
+# 2. Analyzing Android activity data with Microsoft Excel
+
+We shall try to get around the above limitations by gathering the historical data 
 that Google keeps on your activity on Android. This post provides guided steps 
 to export and analyze your activity data from your Android phone. We start by 
 exporting the data from Android using Google Takeout. It is then imported to 
 Microsoft Excel. This step is followed by data transformation steps to make 
 the data easier to analyze.
 
-# Data acquisition
+## Data acquisition
 
 * Go to takeout.google.com
 * Under the ‘Create A New Export’ section, use the ‘Deselect all’ option to uncheck all items. We are only interested in the activity data for Google Android.
@@ -34,7 +55,7 @@ the data easier to analyze.
 
 The export process may take several minutes, and depends on how much data you have. You will get the download link in your email once the export is done. Click on the link to download the exported data to your local drive. You then need to extract the data before you can import it to Microsoft Excel.
 
-#  Preliminary analysis of the data
+##  Preliminary analysis of the data
 
 Let us have a look at the extracted data to get an idea about what we are dealing with. Open the exported data in your favorite text editor. It should resemble data given below.
 
@@ -77,7 +98,7 @@ give us a reasonable estimate of the run time of an application. So, it goes
 without saying that you need to look at the output of this analysis with a 
 pinch of salt.
 
-# Importing the data to Microsoft Excel
+## Importing the data to Microsoft Excel
 
 Open Microsoft Excel and follow the steps below:
 * Open a new blank workbook.
@@ -101,7 +122,7 @@ This would close the Power Query Editor, and load the data to your workbook.
 * Create a TotalHours column, that combiles the hours, minutes, and seconds into a single value in hours. This would make our analysis much easier, as we are dealing with large data spread across many weeks, months, or even a year. DAX formula: =SUM([@Hours]+[@Minutes]/60+[@Seconds]/3600)
 * Quickly go through the TotalHours data to see if there are any anomalies. You can use the column level Filters, or a Pivot Table for this purpose. Remove anomalies that that you may find.
 
-# Data Analysis
+## Data Analysis
 
 Your data is now ready for analysis. I would recommend using a Pivot Table, or 
 Pivot Chart in Excel to carry out the analysis. Do go through the data, and 
@@ -114,14 +135,14 @@ Power BI, and see if we can gain some insights.
 
 ![Smartphone Usage Analytics Dashboard](http://www.deepumon.com/img/assets/smartphone_usage_analytics_dashboard.png)
 
-## Phone standby times
+### Phone standby times
 
 My phone stays idle, or in standby mode for roughly half of the day. This is 
 true for all years except for 2020, where the standby time is increased to 
 64%. I have made a conscious effort to reduce my phone use this year, I 
 believe that is what is causing this drop in active use.
 
-## Top Applications
+### Top Applications
 
 WhatsApp happens to be my favourite app by a long mile. This comes as no 
 surprise, as most of my messaging happens on WhatsApp.
@@ -141,14 +162,14 @@ the time spent on my laptop, so I guess it is time to cut back on it.
 There is nothing significant about the remaining apps, so I shall not go in 
 to those in detail.
 
-## Category usage over time
+### Category usage over time
 
 This chart has a large chunk of data missing between Jan/2019 and May/2019, 
 which needs to be investigated. I was using my smartphone as a wireless 
 hotspot during this period. I wonder if that has got something to with this 
 finding.
 
-## Top Categories
+### Top Categories
 
 My top three categories are Communication, Entertainment, and Internet. It was 
 surprising to note that I still use my phone mostly for Communication (voice 
@@ -161,7 +182,7 @@ next. It appears that I use my camera only occasionally, so splurging on a
 triple camera shooter -as is the trend these days- is not going to help me 
 much. The remaining categories were in line with my expectations.
 
-## Total apps used
+### Total apps used
 There was a total of 215 unique apps installed, and used over this three-year 
 period. That’s a lot of apps! Perhaps it would be a good idea to be more 
 mindful before installing new applications.
