@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Export and analyse your Android digital wellbeing data
+title: Exporting and analysing your Android digital wellbeing data
 subtitle: Detailed steps to export your Android activity data and analyse it with Microsoft Excel
 tags: [projects, data science, data analytics]
 ---
