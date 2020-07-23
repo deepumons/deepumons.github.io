@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How I am handing the great lockdown
+title: How I am handling the great lockdown
 subtitle: Or, how to learn cool stuff, eat healthy, and have fun during troubled times.
 tags: [musings] 
 ---
