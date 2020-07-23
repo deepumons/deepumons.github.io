@@ -22,7 +22,7 @@ description: Personal homepage and blog of Deepak Rajendran
 navbar-links:
   About Me: "aboutme"  
   Tag Index: "/tags/"
-  My Resume: "http://bit.ly/3aiYFNt"
+  My Resume: "https://bit.ly/2BLYgXC"
   #Resources:
     #- Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     #- Learn markdown: "http://www.markdowntutorial.com/"
